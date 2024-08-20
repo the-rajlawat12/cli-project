@@ -1,4 +1,20 @@
+# cool
+#git init 
+#git add .
+#git commit -m "your message.."\
+#copied from github repository
+#git remote add origin https://github.com/the-rajlawat12/cli-project.git
+# git branch -M main
+#git push -u origin main 
+
+#After changing any file: git status(checks what happend)
+#git diff (file bhitra kk change bhako cha tyo hercha)
+#press q to get out ..agadi ko check garna :f and back:b
+#git add .
+#git commit -m "your message.."
+#git push -u origin main
 import sqlite3
+
 def create_con():
     try:
         con=sqlite3.connect("Users.sqlite")
