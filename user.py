@@ -14,6 +14,7 @@
 #git commit -m "your message.."
 #git push -u origin main
 import sqlite3
+import csv
 
 def create_con():
     try:
@@ -60,7 +61,7 @@ def create_table(con):
     cur.execute(table_query)
     print("user table successfully created..")
   #2  
-import csv
+
 def read_csv():
     users=[]
     with open("sample_users.csv","r") as f: 
